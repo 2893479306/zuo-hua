@@ -125,5 +125,74 @@ html {
                 }
             }
         }
+        .dls {
+            width: 100%;
+            .head {
+                width: 100%;
+                height: 45px;
+                background: red;
+                padding: 0 10px;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                span {
+                    width: 25%;
+                    height: 45px;
+                    line-height: 45px;
+                }
+                .active {
+                    color: orange;
+                }
+            }
+            .dl {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 5px 10px;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                dl {
+                    width: 50%;
+                    height: 150px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    dt {
+                        width: 172px;
+                        height: 80px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    dd {
+                        width: 100%;
+                        h3 {
+                            font-size: 15px;
+                        }
+                        p {
+                            font-size: 14px;
+                            color: #ccc;
+                        }
+                        h5 {
+                            font-size: 15px;
+                            display: flex;
+                            justify-content: space-between;
+                            time {
+                                width: 20px;
+                                height: 20px;
+                                text-align: center;
+                                line-height: center;
+                                background: green;
+                                color: white;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
