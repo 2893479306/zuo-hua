@@ -130,7 +130,6 @@ html {
             .head {
                 width: 100%;
                 height: 45px;
-                background: red;
                 padding: 0 10px;
                 box-sizing: border-box;
                 display: flex;
@@ -143,16 +142,19 @@ html {
                 }
                 .active {
                     color: orange;
+                    border-bottom: 1px solid orange;
                 }
             }
             .dl {
                 width: 100%;
+                height: 300px;
                 display: flex;
                 flex-wrap: wrap;
                 padding: 5px 10px;
                 box-sizing: border-box;
                 display: flex;
                 justify-content: center;
+                overflow-y: auto;
                 dl {
                     width: 50%;
                     height: 150px;
@@ -191,6 +193,27 @@ html {
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        height: 45px;
+        display: flex;
+        dl {
+            width: 30%;
+            height: 45px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            dt {
+                width: 20px;
+                height: 20px;
+                img {
+                    width: 100%;
+                    height: 100%;
                 }
             }
         }
